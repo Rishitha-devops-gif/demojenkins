@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages ('clone repo') {
     steps {
-      git ''
+      git 'https://github.com/Rishitha-devops-gif/demojenkins.git'
     } 
   }
   stage('Build docker image') {
